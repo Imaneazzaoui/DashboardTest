@@ -1,0 +1,70 @@
+.top-nav1,
+.topcontainer {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.top-nav1 {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.topcontainer {
+  flex-direction: row;
+  gap: var(--gap-lgi);
+}
+.left,
+.right,
+.top1,
+.topcontainer {
+  align-items: flex-start;
+}
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.left,
+.top1 {
+  gap: var(--gap-xl);
+}
+.top1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.left {
+  flex: 1;
+  flex-direction: column;
+}
+.container1,
+.dashboard1,
+.left,
+.maincontent {
+  display: flex;
+  justify-content: flex-start;
+}
+.maincontent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 18px;
+}
+.container1,
+.dashboard1 {
+  flex-direction: column;
+}
+.container1 {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.dashboard1 {
+  position: relative;
+  background-color: var(--color-ghostwhite-100);
+  width: 100%;
+  align-items: center;
+  gap: 28px;
+}

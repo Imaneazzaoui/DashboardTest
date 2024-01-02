@@ -1,0 +1,105 @@
+.icon3 {
+  border-radius: var(--br-5xs);
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.icon3,
+.this-week4 {
+  position: relative;
+}
+.fichevron-down-icon4 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.filter4,
+.summaryheading3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.filter4 {
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.summaryheading3 {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.div22,
+.div23 {
+  position: relative;
+}
+.div22 {
+  font-weight: 500;
+}
+.div23 {
+  font-size: var(--label-1-regular-size);
+  font-family: var(--paragraph-1-regular);
+  color: var(--action-green);
+  opacity: 0;
+}
+.stats2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs);
+  font-size: var(--subheading-3-medium-size);
+  color: var(--black-60);
+  font-family: var(--subheading-3-medium);
+}
+.center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.div27 {
+  position: relative;
+  font-size: var(--label-1-regular-size);
+  font-family: var(--paragraph-1-regular);
+  color: var(--action-green);
+}
+.summarycardstats1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  font-size: var(--paragraph-2-regular-size);
+  color: var(--black-30);
+}
+.dashboard-summary-card1,
+.summarycontainer3 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.summarycontainer3 {
+  align-self: stretch;
+  justify-content: space-between;
+}
+.dashboard-summary-card1 {
+  border-radius: var(--br-xs);
+  background-color: var(--white-white);
+  height: 145px;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-mini);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--label-1-regular-size);
+  color: var(--black-10);
+  font-family: var(--paragraph-1-regular);
+}

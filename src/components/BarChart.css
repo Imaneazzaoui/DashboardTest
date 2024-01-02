@@ -1,0 +1,106 @@
+.marketting1 {
+  font-weight: 500;
+}
+.marketting1,
+.this-week5 {
+  position: relative;
+}
+.fichevron-down-icon5 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.filter5,
+.marketting-group {
+  display: flex;
+  flex-direction: row;
+}
+.filter5 {
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+  font-size: var(--label-1-regular-size);
+  color: var(--black-10);
+}
+.marketting-group {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.rectangle-div {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--lodin-pink);
+  width: 8px;
+  height: 8px;
+}
+.key3 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.key-child1,
+.key-child2 {
+  position: relative;
+  border-radius: var(--br-7xs);
+  background-color: var(--primary-50);
+  width: 8px;
+  height: 8px;
+}
+.key-child2 {
+  background-color: var(--secondary-100);
+}
+.keycontainer1,
+.top2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.keycontainer1 {
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: var(--label-2-regular-size);
+  color: var(--black-20);
+}
+.top2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.content-item {
+  position: relative;
+  width: 205px;
+  height: 205px;
+  object-fit: cover;
+}
+.barchart,
+.content1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.content1 {
+  height: 291px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.barchart {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--white-white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl);
+  text-align: left;
+  font-size: var(--paragraph-1-regular-size);
+  color: var(--black-60);
+  font-family: var(--paragraph-1-regular);
+}

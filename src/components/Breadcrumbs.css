@@ -1,0 +1,40 @@
+.iconlybulkhome2 {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+.div14,
+.iconlybulkhome2,
+.page4 {
+  position: relative;
+}
+.page4 {
+  font-family: var(--font-dm-mono);
+}
+.item4 {
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.breadcrumbs1,
+.contnet1,
+.item4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contnet1 {
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.breadcrumbs1 {
+  align-self: stretch;
+  background-color: var(--white-white);
+  border-top: 1px solid var(--stroke);
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-xl);
+  text-align: left;
+  font-size: var(--label-1-regular-size);
+  color: var(--black-30);
+  font-family: var(--paragraph-1-regular);
+}

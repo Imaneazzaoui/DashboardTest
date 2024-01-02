@@ -1,0 +1,108 @@
+.recent-orders {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+}
+.iconcontainer1 {
+  position: relative;
+  border-radius: var(--br-481xl);
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.no-orders-yet1 {
+  position: relative;
+  font-weight: 500;
+}
+.add-products-to1 {
+  position: relative;
+  font-size: var(--paragraph-2-regular-size);
+  font-family: var(--paragraph-1-regular);
+  color: var(--black-30);
+  display: inline-block;
+  width: 282px;
+}
+.description1 {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.iconlylightheart3 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+}
+.label2 {
+  position: relative;
+  font-size: var(--paragraph-1-regular-size);
+  font-family: var(--paragraph-1-regular);
+  color: var(--white-white);
+  text-align: center;
+}
+.buttons1,
+.label-container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.label-container2 {
+  gap: var(--gap-xl);
+}
+.buttons1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-base);
+  background-color: var(--lodin-pink);
+  border-radius: var(--br-xs);
+  width: 180px;
+  height: 44px;
+  box-sizing: border-box;
+}
+.emptystatecontent1 {
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.contenu,
+.emptystate1,
+.emptystatecontent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emptystate1 {
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  text-align: center;
+  font-size: var(--subheading-3-medium-size);
+  color: var(--color-black);
+  font-family: var(--subheading-3-medium);
+}
+.contenu {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-141xl);
+}
+.order-summary {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--white-white);
+  width: 443px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--paragraph-1-regular-size);
+  color: var(--black-60);
+  font-family: var(--paragraph-1-regular);
+}
